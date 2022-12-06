@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: white;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.leftside {
+    /* display: block;
+    width: 50%;
+    background-color:darkblue;
+    margin-top: 40px; */
+    background-color:darkblue;
+    float: left;
+    width: 400px;
+    padding: 10px;
+    height: 637px;
+    border-radius: 0px 0px 60px 0px;
+}
+.names{
+    font-family: cursive;
+    margin-left: 90px;
+    color: white;
+}
+.title{
+    font-family: cursive;
+    margin-left: 70px;
+    color: white;
+}
+.leftside img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.nav-links ul li {
+    list-style: none;
+    padding-top: 15px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    /* padding-bottom: 12px; */
+}
+.nav-links ul li a{
+    color: white;
+    font-family: cursive;
+    text-decoration: none;
+}
+.nav-links ul li a::after{
+    color: tomato;
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color:tomato;
+    display: block;
+    margin: auto;
+}
+.nav-links ul li a:hover::after{
+    width: 20%;
+}
+.footer{
+    position: relative;
+    margin-left: 20px;
+    color: white;
+}
+.greattings{
+    position: relative;
+    font-family: cursive;
+    font-size: 40px;
+    left: 70px;
+    top: 50px;
+}
+.cv{
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid tomato;
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: darkblue;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 100px;
+
+}
+.cv a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-family: cursive;
+}
+.homephoto img{   
+position: absolute;
+width: 508px;
+height: 400px;
+left: 600px;
+top: 200px;
+}
+.aboutme{
+    position: relative;
+    font-size: 20px;
+    font-family: cursive;
+    left: 30px;
+    top: 20px;
+}
+.who{
+    position: relative;
+    font-size: 20px;
+    font-family: cursive;
+    left: 30px;
+    top: 20px;
+}
+.a_details{
+    position: relative;
+    left: 30px;
+    top: 20px;
+    font-family: cursive;
+    margin-bottom: 40px;
+}
+.web {
+    margin-bottom: 80px;
+    box-shadow: 0px 0px 56px -8px rgb(0 0 0 / 17%);;
+    display:inline-block;
+    text-decoration: none;
+    color:white;
+    padding: 80px 50px;
+    font-size: 13px;
+    background-color:darkblue;
+    position: relative;
+    margin-left: 50px;
+    border-bottom: 4px solid tomato;
+    font-family: cursive;
+}
+.web4 {
+    margin-bottom: 80px;
+    box-shadow: 0px 0px 56px -8px rgb(0 0 0 / 17%);;
+    display:inline-block;
+    text-decoration: none;
+    color:white;
+    padding: 80px 50px;
+    font-size: 13px;
+    background-color:darkblue;
+    position: relative;
+    margin-left: 50px;
+    border-bottom: 4px solid #FCA9A9;
+    font-family: cursive;
+}
+.web2 {
+    margin-bottom: 80px;
+    box-shadow: 0px 0px 56px -8px rgb(0 0 0 / 17%);;
+    display:inline-block;
+    text-decoration: none;
+    color:white;
+    padding: 80px 50px;
+    font-size: 13px;
+    background-color:darkblue;
+    position: relative;
+    margin-left: 50px;
+    border-bottom: 4px solid #FDC22A;
+    font-family: cursive;
+}
+.web3 {
+    margin-bottom: 80px;
+    box-shadow: 0px 0px 56px -8px rgb(0 0 0 / 17%);;
+    display:inline-block;
+    text-decoration: none;
+    color:white;
+    padding: 80px 50px;
+    font-size: 13px;
+    background-color:darkblue;
+    position: relative;
+    margin-left: 50px;
+    border-bottom: 4px solid #A12EA4;
+    font-family: cursive;
+}
+.proj{
+    margin-bottom: 80px;
+    box-shadow: 0px 0px 56px -8px rgb(0 0 0 / 17%);;
+    display:inline-block;
+    font-size: 100px;
+    text-decoration: none;
+    color:black;
+    padding: 80px 280px;
+    font-size: 13px;
+    background-color:#9D9A56;
+    position: relative;
+    border-radius: 20px;
+    margin-left: 50px;
+    font-family: cursive;
+}
+.hireme {
+    text-decoration: none;
+    color:black;
+    font-size: 100px;
+    font-weight: bold;
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: #FDC22A;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.headerskills{
+    font-family: cursive;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+.skillsContainer{
+    font-family: cursive;
+    left: 20px;
+    top: 40px;
+}
+.indetailsskills{
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: darkblue;
+    position: relative;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 100px;
+
+}
+.indetailsskills a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-family: cursive;
+}
+.trendingBlog {
+    margin-bottom: 80px;
+    box-shadow: 0px 0px 56px -8px rgb(0 0 0 / 17%);;
+    display:inline-block;
+    text-decoration: none;
+    color:white;
+    padding: 12px 12px;
+    font-size: 13px;
+    background-color:darkblue;
+    position: relative;
+    margin-left: 50px;
+    font-family: cursive;
+    border-radius: 30px;
+}
+.trendingBlog span a::after{
+    color: tomato;
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color:tomato;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+}
+.trendingBlog a:hover::after{
+    width: 20%;
+    text-decoration: none;
+}
+/* .header{
+    background-color: darkblue; 
+    width: 100%;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+}
+.leftside
+{
+    padding-top: 3em;
+    padding-bottom: 40px;
+    float: left;
+    width: 300px;
+    position: fixed;
+    overflow-y: scroll;
+    z-index: 1001;
+    background-color: darkblue;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.text {
+    text-align: center;
+    color: red;
+}  */
