@@ -7,19 +7,13 @@
     "axe/text-alternatives": [
       "default",
       {
-        "frame-title": "off"
+        "document-title": "off"
       }
     ],
     "axe/language": [
       "default",
       {
         "html-has-lang": "off"
-      }
-    ],
-    "axe/forms": [
-      "default",
-      {
-        "label": "off"
       }
     ],
     "axe/name-role-value": [
