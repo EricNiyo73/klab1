@@ -764,6 +764,7 @@ top: 210px;
         position: relative;
         left: 380px;
         top: -100px;
+        transition: 0.5;
 }
 .socialmedia .fa-linkedin-in{
     color: white;
@@ -776,6 +777,7 @@ top: 210px;
     position: relative;
     left: 400px;
     top: -100px;
+    transition: 0.5;
 }
 .fa-whatsapp{
     color: white;
@@ -899,44 +901,9 @@ top: 210px;
     bottom: 280px;
     border-radius: 10px;
 }
-/*@media(max-width:390px){
-    .leftside {
-        display: block;
-        background-color:darkblue;
-        height: 844px;
-        border-radius: 0px 0px 60px 0px;
+@media only screen and (max-device-width:867px){
+    #getin > div{
+        display: grid;
+        grid-template-columns: max-content max-content;
     }
-}*/
-  /* .services .icons i {
-    font-size: 30px;
-    color: #fff;
-    z-index: 1;
-    display: table-cell;
-    vertical-align: middle;
-  } */
-/* .header{
-    background-color: darkblue; 
-    width: 100%;
-    overflow: hidden;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
 }
-.leftside
-{
-    padding-top: 3em;
-    padding-bottom: 40px;
-    float: left;
-    width: 300px;
-    position: fixed;
-    overflow-y: scroll;
-    z-index: 1001;
-    background-color: darkblue;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-}
-.text {
-    text-align: center;
-    color: red;
-}  */
