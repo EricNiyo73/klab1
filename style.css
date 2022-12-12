@@ -620,7 +620,6 @@ top: 210px;
     width: 10px;
     height: 10px;
     font-weight: 900;
-    font-size: 1.1em;
 }
 .titlecontactme{
     font-family: cursive;
@@ -1011,14 +1010,16 @@ top: 210px;
 #about .aboutme{
     font-size: 60px;
     text-align: center;
-
+    margin-bottom: 20px;
 }
 .who{
     font-size: 60px;
+    color: #2c98f0;
 }
 .a_details {
     display: flex;
     font-size: 70px;
+    margin-left: 40px;
 }
 .design1{
     display: grid;
@@ -1036,7 +1037,70 @@ top: 210px;
 .proj span{
     display: grid;
     font-size: 50px;
-    height: 110px;
-    width: 700px;
+}
+.proj{
+    width: 800px;
+    height: 300px;
+    border-radius: 5px;
+    display: grid;
+    margin-bottom: 100px;
+    margin-left: 40px;
+}
+.proj .hireme span{
+    padding-top: 10px;
+    background-color: #FDC22A;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 30px;
+    width: 200px;
+    height: 70px;
+    font-size: 90px;
+    left: 200px;
+    top: 100px;
+}
+.hireme span a{
+    font-size: 40px;
+    font-weight: bold;
+}
+#realworks{
+    display: flex;
+    margin-top: -550px;
+    margin-left: -300px;
+    font-size: 50px;
+}
+.services .serve1{
+    width:800px;
+    height: 380px;
+    left: 40px;
+    top: 170px;
+    margin-top: 30px;
+}
+.services .serve1 h5{
+    font-size: 50px;
+}
+.services .serve1 small{
+    font-size: 50px;
+}
+.services .serve2{
+    position: absolute;
+    width: 800px;
+    height: 380px;
+    left: 40px;
+    top: 700px;
+}
+.services .serve2 h5{
+    font-size: 50px;
+}
+.services .serve2 small{
+    font-size: 50px;
+}
+#myski{
+    position: relative;
+    left: 350px;
+    top: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
 }
 }
