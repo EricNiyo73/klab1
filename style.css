@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container{
     background-color: white;
@@ -22,6 +23,7 @@
     padding: 10px;
     height: 637px;
     border-radius: 0px 0px 60px 0px;
+    left: 0%;
 }
 .names{
     font-family: cursive;
@@ -74,7 +76,6 @@
     position: relative;
     left: 350px;
     top:-700px;
-    scroll-behavior: smooth;
 }
 .greattings{
     position: relative;
@@ -148,37 +149,55 @@ top: 210px;
     top: 20px;
 }
 .a_details{
-    position: relative;
+    display: grid;
     left: 30px;
     top: 20px;
     font-family: cursive;
     margin-bottom: 40px;
 }
+.design1{
+    display: flex;
+}
 .web {
     margin-bottom: 80px;
-    box-shadow: 0px 0px 56px -8px rgb(0 0 0 / 17%);;
-    display:inline-block;
+    box-shadow: 0px 0px 56px -8px rgb(0 0 0 / 17%);
     text-decoration: none;
     color:white;
     padding: 80px 50px;
     font-size: 13px;
     background-color:darkblue;
-    position: relative;
+    display: flex;
     margin-left: 50px;
     border-bottom: 4px solid tomato;
     font-family: cursive;
     border-radius: 20px;
+    transition: all ease 100ms;
+}
+.web:hover {
+    background-color:lightseagreen;
+    transform: rotateX(-45deg);
+}
+.web2:hover {
+    background-color:lightseagreen;
+    transform: rotateZ(-45deg);
+}
+.web3:hover {
+    background-color:lightseagreen;
+    transform: rotateZ(-45deg);
+}
+.web4:hover {
+    background-color:lightseagreen;
+    transform: rotateZ(-45deg);
 }
 .web4 {
     margin-bottom: 80px;
-    box-shadow: 0px 0px 56px -8px rgb(0 0 0 / 17%);;
-    display:inline-block;
+    box-shadow: 0px 0px 56px -8px rgb(0 0 0 / 17%);
     text-decoration: none;
     color:white;
     padding: 80px 50px;
     font-size: 13px;
     background-color:darkblue;
-    position: relative;
+    display: flex;
     margin-left: 50px;
     border-bottom: 4px solid #FCA9A9;
     font-family: cursive;
@@ -187,13 +206,12 @@ top: 210px;
 .web2 {
     margin-bottom: 80px;
     box-shadow: 0px 0px 56px -8px rgb(0 0 0 / 17%);;
-    display:inline-block;
     text-decoration: none;
     color:white;
     padding: 80px 50px;
     font-size: 13px;
     background-color:darkblue;
-    position: relative;
+    display: flex;
     margin-left: 50px;
     border-bottom: 4px solid #FDC22A;
     font-family: cursive;
@@ -201,14 +219,12 @@ top: 210px;
 }
 .web3 {
     margin-bottom: 80px;
-    box-shadow: 0px 0px 56px -8px rgb(0 0 0 / 17%);;
-    display:inline-block;
-    text-decoration: none;
+    box-shadow: 0px 0px 56px -8px rgb(0 0 0 / 17%);
     color:white;
     padding: 80px 50px;
     font-size: 13px;
     background-color:darkblue;
-    position: relative;
+    display: flex;
     margin-left: 50px;
     border-bottom: 4px solid #A12EA4;
     font-family: cursive;
@@ -283,6 +299,14 @@ top: 210px;
     bottom: 40px;
     left: 10px;
 }
+.proj{
+    background-color:#9D9A56;
+    width: 800px;
+    height: 100px;
+    border-radius: 5px;
+    display: grid;
+    margin-bottom: 100px;
+}
 .proj span{
     font-size: 25px;
     padding-left: 20px;
@@ -295,7 +319,6 @@ top: 210px;
     color:black;
     height: 110px;
     width: 700px;
-    background-color:#9D9A56;
     position: relative;
     border-radius: 20px;
     margin-left: 50px;
@@ -435,15 +458,20 @@ top: 210px;
     position: relative;
     left: 12px;
     width: 250px;
-    height: 150px;
+    height: 160px;
     background-color:lightgray;
     border-radius: 10px;
+}
+#blogs .designblog small{
+    font-size: 15px;
+    font-family: cursive;
+    text-align: left;
 }
 #blogs .designblog span{
     font-family: cursive;
     position: relative;
-    top: 120px;
-    left: 80px;
+    top: 45px;
+    left: -60px;
     background-color: darkblue;
     color: white;
     padding-top: 5px;
@@ -455,8 +483,8 @@ top: 210px;
 #blogs .designblog2 span{
     font-family: cursive;
     position: relative;
-    top: 120px;
-    left: 80px;
+    top: -5px;
+    left: 30px;
     background-color: darkblue;
     color: white;
     padding-top: 5px;
@@ -468,8 +496,8 @@ top: 210px;
 #blogs .designblog3 span{
     font-family: cursive;
     position: relative;
-    top: 120px;
-    left: 80px;
+    top: 50px;
+    left: -90px;
     background-color: darkblue;
     color: white;
     padding-top: 5px;
@@ -478,28 +506,40 @@ top: 210px;
     padding-right: 5px;
     border-radius: 20px;
 }
+#blogs .designblog3  small{
+    font-size: 15px;
+    font-family: cursive;
+    text-align: center;
+    justify-items: center;
+}
 .fa-comment{
     width: 20px;
+    font-size: 2em;
 }
-#blogs .designblog4 span{
+.fa-share-nodes {
+    margin-left: 10px;
+    font-size: 2em;
+    position: relative;
+    left: 20px;
+}
+#blogs .designblog4  span{
     font-family: cursive;
     position: relative;
     top: 120px;
-    left: 80px;
+    left: 40px;
     background-color: darkblue;
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 0px;
     border-radius: 20px;
     cursor: pointer;
 }
 #blogs .designblog i{
     position: relative;
-    left: 130px;
-    top: 120px;
-    width: 20px;
+    left: 0px;
+    top: 50px;
     color: darkblue;
     cursor: pointer;
 }
@@ -508,16 +548,20 @@ top: 210px;
     top: -130px;
     left: 400px;
     width: 250px;
-    height: 150px;
+    height: 160px;
     background-color:lightgray;
     border-radius: 10px;
     cursor: pointer;
 }
+#blogs .designblog2 small{
+    font-size: 15px;
+    font-family: cursive;
+    text-align: left;
+}
 #blogs .designblog2 i{
     position: relative;
-    left: 150px;
-    top: 120px;
-    width: 20px;
+    left: 100px;
+    top: 5px;
     color: darkblue;
     cursor: pointer;
 }
@@ -526,15 +570,15 @@ top: 210px;
     top: -20px;
     left: 18px;
     width: 250px;
-    height: 150px;
+    height: 160px;
     background-color:lightgray;
     border-radius: 10px;
     cursor: pointer;
 }
 #blogs .designblog3 i{
     position: relative;
-    left: 150px;
-    top: 120px;
+    left: -80px;
+    top: 50px;
     width: 20px;
     color: darkblue;
     cursor: pointer;
@@ -544,14 +588,14 @@ top: 210px;
     top: -160px;
     left: 400px;
     width: 250px;
-    height: 150px;
+    height: 160px;
     background-color:lightgray;
     border-radius: 10px;
     cursor: pointer;
 }
 #blogs .designblog4 i{
     position: relative;
-    left: 150px;
+    left: 100px;
     top: 120px;
     width: 20px;
     color: darkblue;
@@ -573,8 +617,10 @@ top: 210px;
     color: #2c98f0;
 }
 .fa-location-dot{
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
+    font-weight: 900;
+    font-size: 1.1em;
 }
 .titlecontactme{
     font-family: cursive;
@@ -901,9 +947,96 @@ top: 210px;
     bottom: 280px;
     border-radius: 10px;
 }
-@media only screen and (max-device-width:867px){
-    #getin > div{
-        display: grid;
-        grid-template-columns: max-content max-content;
+/* nav  */
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+/* ============== media querry ================ */
+@media only screen and (max-device-width:1000px){
+    .checkbtn{
+        display: block;
     }
+    #check:checked ~ .leftside{
+        left: 0;
+    }
+    .leftside{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: darkblue;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .homecontainer{
+        position: relative;
+        left: 0px;
+        right: 0px;
+        top: -2100px;
+     
+    }
+    .homecontainer .greattings{
+        font-size: 4em;
+    }
+    .homecontainer .homephoto img{
+        background-color: #A12EA4;
+       margin-left: 7em;
+       margin-top: -2em;
+       width: 55vw;
+       height: 53vh;
+    
+    }
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#about{
+    position: relative;
+        left: 20px;
+        right: 0px;
+        top: -1000px; 
+}
+#about .aboutme{
+    font-size: 60px;
+    text-align: center;
+
+}
+.who{
+    font-size: 60px;
+}
+.a_details {
+    display: flex;
+    font-size: 70px;
+}
+.design1{
+    display: grid;
+}
+.web{
+    font-size: 80px;
+}
+.web2{
+    font-size: 80px;
+}
+.web3{
+    font-size: 80px;
+}
+.web4{ font-size: 80px;}
+.proj span{
+    display: grid;
+    font-size: 50px;
+    height: 110px;
+    width: 700px;
+}
 }
