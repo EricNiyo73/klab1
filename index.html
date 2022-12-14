@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" href="css/all.css" class="src" />
     <!-- <script src="https://kit.fontawesome.com/9ca7ec63a3.js" crossorigin="anonymous"></script> -->
+    <script defer src="./jscript.js"></script>
   </head>
   <body>
     <style>
@@ -77,7 +78,7 @@
       <div class="aboutme"><span class="abt">ABOUT ME</span><br /></div>
       <br />
       <div>
-        <span class="who">Who am I?</span>
+        <span class="who">Who am I?</span><br>
       </div>
       <br />
       <div class="a_details">
@@ -91,8 +92,9 @@
       <div class="design1">
         <span class="web">Graphic Design</span>&nbsp;&nbsp;
         <span class="web2">Web Design</span>&nbsp;&nbsp;
-        <span class="web3"><i class="fa-solid fa-database"></i>Software</span
+        <span class="web3">Software</span
         >&nbsp;&nbsp;
+        <!-- <i class="fa-solid fa-database"></i> -->
         <span class="web4">Application</span>
       </div>
       <div class="proj">
@@ -252,6 +254,8 @@
     </section>
     <!--  ---------------contacts------- -->
     <section id="getin">
+      <div class="contact">
+        <form id="form1">
       <div class="getinto">
         <span class="getinT">Get In Touch</span><br /><br />
         <span class="titlecontactme">CONTACT ME</span><br /><br />
@@ -266,37 +270,20 @@
       <div class="mapicons">
         <span
           ><i class="fa-solid fa-location-dot"></i
-          ><strong>Kabuga- Rwanda</strong></span
+          >&nbsp;&nbsp;<strong>Kabuga- Rwanda</strong></span
         >
       </div>
       <div class="callicons">
         <span
           ><i class="fa-solid fa-phone-flip"></i
-          ><strong>+250786007088</strong></span
+          >&nbsp;&nbsp;<strong>+250786007088</strong></span
         >
       </div>
+    </form>
+    </div>
       <div class="lineseparator"></div>
-      <div class="formcontact">
-        <form>
-          <div class="ydata">
-            <input
-              type="text"
-              name=""
-              placeholder="Your Name here"
-            /><br /><br />
-            <input type="text" name="" placeholder="Your Email" /><br /><br />
-            <input type="text" name="" placeholder="Subject" /><br /><br />
-          </div>
-          <textarea placeholder="your message"></textarea><br />
-          <input
-            type="submit"
-            class="submita"
-            name="submit"
-            value="Send"
-            id="register"
-          />
-        </form>
-      </div>
+     
+<!--       
       <div class="socialmedia">
         <span
           ><a href="#"><i class="fab fa-facebook-f"></i></a
@@ -308,7 +295,34 @@
         <span
           ><a href="#"><i class="fa-brands fa-whatsapp"></i></a
         ></span>
-      </div>
+      </div> -->
+      <div class="container1">
+        <form id="form" action="/">
+            <h1>Contact me</h1>
+            <div class="input-control">
+                <label for="username">Your Name</label>
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email"> Your Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="text">Subject</label>
+                <input id="text"name="text" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            
+                <div class="error"></div>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </div>
     </section>
   </body>
 </html>
