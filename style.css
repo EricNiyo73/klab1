@@ -179,15 +179,15 @@ top: 210px;
 }
 .web2:hover {
     background-color:lightseagreen;
-    transform: rotateZ(-45deg);
+    transform: rotateX(-45deg);
 }
 .web3:hover {
     background-color:lightseagreen;
-    transform: rotateZ(-45deg);
+    transform: rotateX(-45deg);
 }
 .web4:hover {
     background-color:lightseagreen;
-    transform: rotateZ(-45deg);
+    transform: rotateX(-45deg);
 }
 .web4 {
     margin-bottom: 80px;
