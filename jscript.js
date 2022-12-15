@@ -56,7 +56,7 @@ const validateInputs = () => {
     if(textValue === '') {
         setError(text, 'Title is required');
     } else if (textValue.length > 15) {
-        setError(text, 'Title must be at least 15 character.')
+        setError(text, 'Title must be only 15 character.')
     } else {
         setSuccess(text);
     }
@@ -64,7 +64,7 @@ const validateInputs = () => {
     if(messageValue === '') {
         setError(message, 'Please confirm your text');
     } else if (messageValue.length > 100) {
-        setError(message, "your message must be 100 characters");
+        setError(message, "your message must be only 100 characters");
     } else {
         setSuccess(message,'message sent successfully');
     }

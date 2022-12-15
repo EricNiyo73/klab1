@@ -111,19 +111,20 @@
 }
 .homephoto img{   
 position: absolute;
-width: 508px;
+width: 400px;
 height: 400px;
 left: 400px;
 top: 210px;
+border-radius: 50%;
 }
 #about{
     position: relative;
     top: -300px;
-    left:350px;
+    left:420px;
 }
 #realworks{
     position: relative;
-     left: 350px;
+     left: 400px;
     top: -400px;
 }
 .aboutme{
@@ -135,7 +136,7 @@ top: 210px;
 }
 #myski{
     position: relative;
-    left: 350px;
+    left: 400px;
     top: 300px;
     display: flex;
     flex-direction: column;
@@ -302,7 +303,7 @@ top: 210px;
 .proj{
     background-color:#9D9A56;
     width: 800px;
-    height: 100px;
+    height: 150px;
     border-radius: 5px;
     display: grid;
     margin-bottom: 100px;
@@ -331,7 +332,7 @@ top: 210px;
 }
 .proj .hireme span{
     font-size: 30px;
-    padding-top: 10px;
+    padding-top: 2px;
     text-decoration: none;
     width: 100px;
     height: 40px;
@@ -367,16 +368,16 @@ top: 210px;
 .indetailsskills{
     display:inline-block;
     text-decoration: none;
-    color: white;
-    padding: 12px 34px;
     font-size: 13px;
     background-color: darkblue;
-    position: relative;
+   display: flex;
     cursor: pointer;
     border-radius: 50px;
     margin-left: 100px;
     position: relative;
-    width: 70px;
+    width: 120px;
+    height: 30px;
+    padding-left: 30px;
 
 }
 .indetailsskills a{
@@ -675,7 +676,7 @@ top: 210px;
 }
 #getin {
     display: flex;
-    margin-left: 350px;
+    margin-left: 400px;
     margin-top: 700px;
     padding-left: 20px;
     
@@ -728,6 +729,14 @@ top: 210px;
     font-size: 17px;
     font-family: cursive;
 }
+.socialmedia{
+    display: flex;
+    margin-left: -300px;
+    margin-top: 550px;
+    gap: 20px;
+
+    /* margin-left: -350px; */
+}
 
 .socialmedia .fa-facebook-f {
         color: white;
@@ -737,9 +746,6 @@ top: 210px;
         padding-top: 15px;
         padding-bottom: 15px;
         background-color: darkblue;
-        position: relative;
-        left: 380px;
-        top: -100px;
         transition: 0.5;
 }
 .socialmedia .fa-linkedin-in{
@@ -750,9 +756,6 @@ top: 210px;
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: darkblue;
-    position: relative;
-    left: 400px;
-    top: -100px;
     transition: 0.5;
 }
 .fa-whatsapp{
@@ -763,9 +766,6 @@ top: 210px;
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: darkblue;
-    position: relative;
-    left: 420px;
-    top: -100px;
 }
 
 #educational .myedu .myedu1 {
@@ -803,7 +803,7 @@ top: 210px;
 #educational{
     position: relative;
     top: 350px;
-    left: 350px;
+    left: 400px;
 }
 #educational h3{
     position: relative;
@@ -826,14 +826,14 @@ top: 210px;
 }
 #blogs{
     position: relative;
-    left: 350px;
+    left: 400px;
     top: 700px;
 }
 .workphoto img{
     width: 200px;
     height: 200px;
     position: relative;
-    left: 70px;
+    left: 180px;
     top: 90px;
     border-radius: 50%;
 }
@@ -893,9 +893,9 @@ top: 210px;
 /* =============================contact form======================== */
 #form {
     width: 300px;
-    margin-left: 320px;
+    margin-left: 200px;
     padding: 20px;
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 4px;
     font-size: 12px;
     font-family: cursive;
@@ -996,8 +996,8 @@ top: 210px;
         background-color: #A12EA4;
        margin-left: 7em;
        margin-top: -2em;
-       width: 55vw;
-       height: 53vh;
+       width: 400px;
+       height: 400px;
     
     }
 
