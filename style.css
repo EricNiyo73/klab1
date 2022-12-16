@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    width: 400px;
+    background: white;
+  }
 .container{
     background-color: white;
     min-height: 100vh;
